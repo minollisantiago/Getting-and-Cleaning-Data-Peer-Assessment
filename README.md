@@ -21,4 +21,12 @@ Here is a general overview of the steps:
 4. Step 5: Creates the final tidy data set and writes it into a .txt file in the working 
    directory. This step includes the computation of the average of the selected measurements 
    for each activity and each subject.
+   
+###A final note on reading the tidy dataset
+If you load the TidyDataSet.txt into memory, remember to set the arguments header to TRUE and sep to "," when you call the
+read.table() function, here is an example:
+
+```{r}
+read.table("TidyDataSet.txt", sep = ",", header = TRUE)
+```
   

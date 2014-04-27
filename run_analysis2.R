@@ -68,8 +68,11 @@ Data <- Data[, c(names(Data)[1:2], FilteredFeatureLabels)]
 
 #1) Data as data.table, for easier subsetting
 
-library(data.table)
+#Install and load the package data.table (checks to see if its installed first)
+if( !require(data.table, quietly = TRUE) ) { install.packages("data.table") } 
+require(data.table)
 
+#New set as data.table()
 TidyData <- data.table(Data)
 
 #2) Set the keys, and calculate the means by Subject and activities
