@@ -14,11 +14,11 @@ they also include annotations that describe the whole process step by step.
 
 Here is a general overview of the steps:
 
-1. Step 0: Loads the necessary data sets into memory.
-2. Steps 1, 3 and 4: These steps are together, the script handles the merging of the 
+* Step 0: Loads the necessary data sets into memory.
+* Steps 1, 3 and 4: These steps are together, the script handles the merging of the 
    data sets and adds the labels for Subjects and Activities.
-3. Step 2: Subsets the data, including only the mean and std measurements. 
-4. Step 5: Creates the final tidy data set and writes it into a .txt file in the working 
+* Step 2: Subsets the data, including only the mean and std measurements. 
+* Step 5: Creates the final tidy data set and writes it into a .txt file in the working 
    directory. This step includes the computation of the average of the selected measurements 
    for each activity and each subject.
    

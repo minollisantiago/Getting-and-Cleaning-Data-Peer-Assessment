@@ -9,9 +9,11 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 For all the features included in the original dataset, only the mean and standard deviation measurements
 were considered. Both the train set and test set were merged into one dataset and Activity and Subject 
 labels were included. 
+
 The dataset is composed by 180 observations (rows) for 68 variables (columns), where each row is a vector
 that contains the average value of the mean and standard deviation measurements from the original dataset
 for each activity and subject. 
+
 The original dataset included 30 subjects and 6 activity labels, thus the number of observations of this 
 dataset is equal to 30*6 = 180. The original dataset also included a total of 66 mean and standard deviation
 measurements, the 2 additional columns included in this dataset are the Subject and Activity labels.
@@ -38,37 +40,38 @@ fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 Several variables were estimated from these signals, but the only ones that were included in this dataset are the
 following measurements: 
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
-The measurements described above were averaged by each subject and activity. Two additional variables were included 
-in the dataset, the first one (Subject) identifies the subject and the second one (Activity) identifies the activity.
 The original experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing 
 a smartphone (Samsung Galaxy S II) on the waist.
 
-A list of all the dataset's variables is included below:  
+The measurements described above were averaged by each subject and activity. Two additional variables were included 
+in the dataset, the first one (Subject) identifies the subject and the second one (Activity) identifies the activity.
+
+An ordered list of all the dataset's variables is included below:  
 
 1. Subject 
 2. Activity 
@@ -140,8 +143,8 @@ A list of all the dataset's variables is included below:
 68. fBodyBodyGyroJerkMag-std()
 
 ###Notes: 
-1. Original features are normalized and bounded within [-1,1].
-2. Each row in the dataset is a vector that contains the average mean and standard
+* Original features are normalized and bounded within [-1,1].
+* Each row in the dataset is a vector that contains the average mean and standard
    deviation measurements from the original data set for each subject and activity.
 
 ###References
