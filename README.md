@@ -1,4 +1,4 @@
-#Peer Assesment
+#Peer Assessment
 
 ###Important note
 I have included two .R files, one called run_analysis.R and the other run_analysis2.R.

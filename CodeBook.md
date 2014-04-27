@@ -1,4 +1,4 @@
-#Code Book - Peer Assesment
+#Code Book - Peer Assessment
 
 ###General Description
 This dataset is based on the "Human Activity Recognition Using Smartphones Dataset - Version 1.0[1]", which
