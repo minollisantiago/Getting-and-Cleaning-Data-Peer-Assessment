@@ -1,5 +1,4 @@
 
-
 ##STEP 0:
 #Download the data and store it on a temp file, then
 #load the needed files into globalenv()
@@ -101,9 +100,3 @@ TidyData <- TidyData[, lapply(.SD, mean), by ="Subject,Activity"]
 
 write.table(TidyData, file = "TidyDataSet.txt", row.names = FALSE, 
 col.names = TRUE, sep = ",", quote = FALSE)
-
-
-
-
-
-

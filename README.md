@@ -1,6 +1,6 @@
-###Peer Assesment
+#Peer Assesment
 
-#Important note
+###Important note
 I have included two .R files, one called run_analysis.R and the other run_analysis2.R.
 The difference between both files is the way in which they get the Samsung data, the 
 first one doesn't require you to have the data files on your working directory, it will
@@ -8,7 +8,7 @@ handle the downloading in a temp file and delete it after unzipping and reading 
 sets into memory. The second one works as required by the assignment, it will get the 
 data sets from the working directory (after you decompress the data that is).
 
-#How the script works
+###How the script works
 Both scripts are split into steps that mimic the ones given in the assignment description, 
 they also include annotations that describe the whole process step by step. 
 
